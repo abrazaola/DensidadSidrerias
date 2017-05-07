@@ -2,10 +2,11 @@
 ## Dataset (API)
 ```http://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-y-sidrerias-de-euskadi/```
 
-## Obtención del dataset de la API
-```./get_dataset.py```
-
 ## Para ejectutarlo sin Hadoop:
+* Vía url
+```./mapper.py | sort | ./reducer.py```
+
+* Vía fichero local
 ```cat restaurantes.xml | ./mapper.py | sort | ./reducer.py```
 
 ## Para ejecutarlo en Hadoop:
