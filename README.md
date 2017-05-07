@@ -1,4 +1,8 @@
 # MapReduce con Apache Hadoop
+## Authors
+* Aitor Brazaola
+* Sergio Anguita
+
 ## Dataset (API)
 ```http://opendata.euskadi.eus/catalogo/-/restaurantes-asadores-y-sidrerias-de-euskadi/```
 
